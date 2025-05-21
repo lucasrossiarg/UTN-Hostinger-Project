@@ -22,25 +22,34 @@
   <header>
 
     <nav class="nav-container">
-      <div class="logo-container">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Hostinger_logo_black.svg/2560px-Hostinger_logo_black.svg.png" alt="hostinger-logo">
-      </div>
+        <div class="logo-container">
+          <a href="#">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Hostinger_logo_black.svg/2560px-Hostinger_logo_black.svg.png" alt="hostinger-logo">
+          </a>
+        </div>
       
       <div class="navbar-links">
         <a href="#">Pricing</a>
-        <a href="#">Services</a>
-        <a href="#">Explore</a>
-        <a href="#">Support</a>
-        <a href="#">Horizons</a></li>
+        <a href="#">Services
+          <i class="bi bi-chevron-down"></i>
+        </a>
+        <a href="#">Explore
+          <i class="bi bi-chevron-down"></i>
+        </a>
+        <a href="#">Support
+          <i class="bi bi-chevron-down"></i>
+        </a>
+        <a href="#">Horizons</a>
       </div>
       
-      <div class="right-btns-header">
+      <div class="right-header-buttons">
+        <img src="https://imgs.search.brave.com/HYWMV7uGsgBtfZhf8DpaDhoaWFdTPWt0APUYbcoQ-RA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pY29u/cy5pY29uYXJjaGl2/ZS5jb20vaWNvbnMv/d2lraXBlZGlhL2Zs/YWdzLzUxMi9VUy1V/bml0ZWQtU3RhdGVz/LUZsYWctaWNvbi5w/bmc" alt="usa-flag">
         <button>English</button>
         <a href="#">Log in</a>
       </div>
       
       
-        <button class="btn-menu">
+        <button class="btn-burger-menu">
           <i class="bi bi-list"></i>
       </button>
       
@@ -50,23 +59,43 @@
 
   <body>
     <main>
-      <section>
-        <article>
-          <h2>Website migration. Made simple.</h2>
 
-          <p class="paragraph">
-            Currently hosting your website elsewhere? Join the 3+ million
-            website owners who enjoy fast, secure and reliable web hosting here
-            at Hostinger. Our expert team will handle everything while your site
-            stays up and running throughout. That’s right – no downtime. No data
-            loss. No problem.
-          </p>
+      <section class="main-section">
+        <div class="left-side-section">
+
+        <div class="main-title-section">
+          <h1>Everything you need to create a website</h1>
+          <p>Up to <span class="percentage-p">75%</span> off hosting + website builder</p>
+        </div>
+
+          <span class="span-free-domain"><i class="bi bi-check2"></i>Free domain<i class="bi bi-question-circle"></i></span>          
+          <span><i class="bi bi-check2"></i>Free website migration<i class="bi bi-question-circle"></i></span>
+          <span><i class="bi bi-check2"></i>24/7 customer support</span>
+        </div>
+
+        <div class="right-side-section">
+          <img src="./Assests/Img/hostinger-hero-english.png" alt="hostiner-hero">
+        </div>
+      </section>
+
+      <section>
+          <div class="service-section-description">
+            <h2>Website migration. Made simple.</h2>
+              <p>
+                Currently hosting your website elsewhere? Join the 3+ million
+                website owners who enjoy fast, secure and reliable web hosting here
+                at Hostinger. Our expert team will handle everything while your site
+                stays up and running throughout. That’s right – no downtime. No data
+                loss. No problem.
+              </p>
+          </div>
+
 
           <div class="cards-container">
             <div class="cards">
               <div class="icons"><i class="bi bi-list-ul"></i></div>
-              <h3 class="card-subtitle">3 simple steps</h3>
-              <p class="card-paragraph">
+              <h3>3 simple steps</h3>
+              <p>
                 Simply pick your plan, fill in the migration request form,
                 submit it and then sit back and relax.
               </p>
@@ -74,8 +103,8 @@
 
             <div class="cards">
               <div class="icons"><i class="bi bi-lightning-charge"></i></div>
-              <h3 class="card-subtitle">Fast and secure</h3>
-              <p class="card-paragraph">
+              <h3>Fast and secure</h3>
+              <p>
                 95% of websites are migrated in under 20 minutes. The other 5%
                 are quicker than the industry average. And, your site stays live
                 the whole time too.
@@ -84,8 +113,8 @@
 
             <div class="cards">
               <div class="icons"><i class="bi bi-check-circle"></i></i></div>
-              <h3 class="card-subtitle">Free</h3>
-              <p class="card-paragraph">
+              <h3>Free</h3>
+              <p>
                 Whether you have 1 website to migrate or 100, migration is free
                 with all of our plans.
               </p>
@@ -97,7 +126,6 @@
               <a href="#" class="button-text">Get started</a>
             </div>
           </div>
-        </article>
       </section>
     </main>
   </body>

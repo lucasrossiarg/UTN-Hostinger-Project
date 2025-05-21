@@ -1,141 +1,226 @@
-/* :root{
-    El root se utiliza para guardar variables que se pueden reutilizar
-    para llamar a la variable se utiliza var--"nombre-de-la-variable"(valor de la variable)
-} */
-
-body{
+body {
     background-color: rgb(30,19,71);
     font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
 }
 
-header{
+header {
     position: sticky;
     top: 0rem;
     background-color: white;
+    z-index: 1;
+    border: 1px solid transparent;
+    box-shadow: -1px 2px 5px 1px rgba(0,0,0,0.1);
 }
 
-.nav-container{
+.nav-container {
     width: 100%;
     background-color: white;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
+    padding: .625rem 2.5rem;
 }
 
-.logo-container{
+.logo-container {
     display: flex;
     align-items: center;
-    padding: 1rem 0rem 1rem 1rem;
+    padding: 1rem 0rem;
     width: 10rem;
-    margin-left: 1.5rem;
 }
 
-.navbar-links{
+.navbar-links {
     display: flex;
     flex-direction: row;
     font-size: 1em;
     gap: 2rem;
     align-items: center;
-    margin: 2rem;
+    flex-wrap: wrap;
+    margin: 1rem 2rem;
     flex-grow: 1;
-    z-index: 1;
 }
 
-.right-btns-header{
-    width: 205px;
-    height: 48px;
+.right-header-buttons {
     display: flex;
-    gap: 32px;
+    padding: 0 .625rem;
+    gap: 1px;
     align-items: center;
+    flex-wrap: wrap;
 }
 
-.btn-menu{
+.right-header-buttons a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 5rem;
+    height: 3rem;
+    border: 2px solid black;
+    border-radius: 8px;
+    font-weight: 550;
+}
+
+.right-header-buttons img {
+    width: 2.1875rem;
+    height: 2.1875rem;
+}
+
+.right-header-buttons button {
+    font-weight: 550;
+    margin-right: 2rem;
+}
+
+.btn-burger-menu {
     display: none;
     font-size: 1.5em;
     margin-right: 1rem;
 }
 
-h2{
+.main-section{
+    background-color: white;
+    justify-content: space-between;
+    padding: 36px 0px 96px;
+}
+
+.left-side-section{
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    margin-left: 100px;
+    margin-top: 70px;
+}
+
+.main-title-section{
+    margin: 0px 0px 24px;
+}
+
+.main-title-section p{
+    color: rgb(47,29,107);
+    font-size: 20px;
+    font-weight: 700;
+    margin: 8px 0px 0px;
+}
+
+.percentage-p{
+    color: rgb(107,74,231);
+}
+
+.bi-check2{
+    color: rgb(3,176,145);
+    font-size: 24px;
+}
+
+.span-free-domain{
+    margin: 0px 0px 2px;
+}
+
+
+h1{
+    font-size: 36px;
+    color: rgb(47,29,107);
+    font-weight: 700;
+}
+
+.right-side-section{
+    position: relative;
+    bottom: 280px;
+    left: 580px;
+}
+.right-side-section img{
+    width: 800px;
+    height: 550px;
+}
+----------------------------------------------------------------------------------------
+section{
+    padding: 5rem 0rem;
+}
+
+.service-section-description{
+    margin: 0rem 1.175rem 3rem;
+    padding: 0 40px;
+}
+
+.service-section-description h2{
     color: white;
     font-size: 36px;
     text-align: center;
-    font-weight: 700;
-    margin-bottom: 1rem;
-    margin-top: 4rem;
+    margin: 0;
 }
 
-.paragraph{
+.service-section-description p{
     color: white;
-    font-size: 1em;
-    margin: 24px;
-    padding: 0 2.5rem;
-    max-width: 68.75rem;
+    margin: 1.5rem 0rem 0rem;
     text-align: center;
-    font-weight: 400;
 }
 
-.card-paragraph{
+.cards h3{
     color: white;
-    font-size: 1em;
-    margin-top: 1.25rem;
+    font-size: 18px;
+    padding: 1rem 0rem;
 }
 
-.card-subtitle{
-    color:white;
-    font-size: 1.125em;
-    margin-top: 1.25rem;
+.cards p{
+    color: white;
+    font-size: 16px;
+    margin: 0;
 }
 
-.cards-container{
-    width: 100%;
-    max-width: 1208px;
-    margin: 0rem 1.175rem;
-    padding: 0 2.5rem;
+.cards-container {
     display: flex;
-    gap: 1.5rem;
-    flex-wrap: wrap;
+    flex-direction: row;
     justify-content: center;
+    margin: 0px 18px;
+    padding: 0 40px;
+    column-gap: 24px;
+    row-gap: 24px;
 }
 
-.cards{
+.cards {
     background-color: rgb(47,29,107);
     width: 22.5rem;
-    height: 19rem;
+    height: 16rem;
     padding: 2rem;
     display: flex;
     flex-direction: column;
     border-radius: 1.25rem;
     border: 1px solid transparent;
-    margin-bottom: 1rem;
 }
 
-.button-container{
+.button-container {
     display: flex;
     justify-content: center;
+    align-items: center;
     margin-top: 2rem;
 }
 
-.button{
+.button {
     background-color: rgb(103,61,230);
     border: 1px solid transparent;
     border-radius: 8px;
-    padding: .75rem 3rem;
+    padding: 0.75rem 3rem;
     font-size: 1em;
     transition: background-color 0.5s;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
     align-items: center;
-    display: inline-flex;
+    width: 11.875rem;
+    height: 3rem;
 }
 
-.button-text{
+.button-text {
     color: white;
 }
-.button:hover{
-    background-color: RGB(80 37 209);
+
+.button:hover {
+    background-color: rgb(80, 37, 209);
 }
 
-.icons{
+.icons {
     background-color: rgb(103,60,231);
     color: white;
     border-radius: 5px;
@@ -143,45 +228,6 @@ h2{
     width: 2.5rem;
     height: 2.5rem;
     align-items: center;
-    padding: 0.5rem;
+    justify-content: center;
     font-size: 1.5em;
-}
-
-@media screen and (max-width: 64rem) {
-    h2{
-        font-size: 28px;
-    }
-    .cards-container{
-        width: 48rem;
-        height: 40.5rem;
-    }
-    .cards{
-        flex-direction: column;
-        width: 43rem;
-        height: 13rem;
-    }
-        .navbar-links{
-        display: none;
-    }
-    .right-btns-header{
-        display: none;
-    }
-    .btn-menu{
-        display: flex;
-    }
-}
-
-@media screen and (max-width: 48rem) {
-    h2{
-        font-size: 24px;
-    }
-    .cards-container{
-        width: 33.75rem;
-        height: 42.5rem;
-    }
-    .cards{
-        flex-direction: column;
-        width: 31.75rem;
-        height: 13rem;
-    }
 }
