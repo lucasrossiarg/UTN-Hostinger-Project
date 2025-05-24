@@ -1,12 +1,11 @@
-body {
+body{
     background-color: rgb(30,19,71);
     font-family: sans-serif;
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
 }
 
-header {
+header{
     position: sticky;
     top: 0rem;
     background-color: white;
@@ -15,7 +14,7 @@ header {
     box-shadow: -1px 2px 5px 1px rgba(0,0,0,0.1);
 }
 
-.nav-container {
+.nav-container{
     width: 100%;
     background-color: white;
     display: flex;
@@ -23,17 +22,19 @@ header {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    padding: .625rem 2.5rem;
+    padding: 20px 40px;
 }
 
-.logo-container {
+.logo-container{
     display: flex;
-    align-items: center;
-    padding: 1rem 0rem;
-    width: 10rem;
 }
 
-.navbar-links {
+.logo-container img{
+    width: 147px;
+    height: auto;
+}
+
+.navbar-links{
     display: flex;
     flex-direction: row;
     font-size: 1em;
@@ -44,7 +45,7 @@ header {
     flex-grow: 1;
 }
 
-.right-header-buttons {
+.right-header-buttons{
     display: flex;
     padding: 0 .625rem;
     gap: 1px;
@@ -52,7 +53,7 @@ header {
     flex-wrap: wrap;
 }
 
-.right-header-buttons a {
+.right-header-buttons a{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -63,26 +64,29 @@ header {
     font-weight: 550;
 }
 
-.right-header-buttons img {
-    width: 2.1875rem;
-    height: 2.1875rem;
+.right-header-buttons img{
+    width: 33px;
+    height: auto;
 }
 
-.right-header-buttons button {
+.right-header-buttons button{
     font-weight: 550;
     margin-right: 2rem;
 }
 
-.btn-burger-menu {
+.btn-burger-menu{
     display: none;
     font-size: 1.5em;
     margin-right: 1rem;
 }
 
 .main-section{
+    display: flex;
     background-color: white;
-    justify-content: space-between;
     padding: 36px 0px 96px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
 
 .left-side-section{
@@ -90,8 +94,7 @@ header {
     display: flex;
     flex-direction: column;
     text-align: start;
-    margin-left: 100px;
-    margin-top: 70px;
+    gap: 1px;
 }
 
 .main-title-section{
@@ -105,7 +108,7 @@ header {
     margin: 8px 0px 0px;
 }
 
-.percentage-p{
+.main-title-section span{
     color: rgb(107,74,231);
 }
 
@@ -114,47 +117,146 @@ header {
     font-size: 24px;
 }
 
-.span-free-domain{
-    margin: 0px 0px 2px;
+.bi-question-circle{
+    color: rgb(77,58,126);
+    font-size: 16px;
 }
 
+.main-section-span{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    line-height: 120%;
+    color: rgb(77,58,126);
+}
+
+.customer--support{
+    margin: 0px 0px 1.5rem;
+}
+
+.price{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    gap: 5px;
+}
+
+.price-us{
+    font-size: 20px;
+    color: rgb(47,29,107);
+}
+
+.price-number{
+    font-size: 48px;
+    font-weight: 700;
+    color: rgb(47,29,107);
+}
+
+.price-mo{
+    font-size: 20px;
+    color: rgb(47,29,107);
+}
+
+.free-months{
+    font-size: 20px;
+    color: rgb(47,29,107);
+    font-weight: 700;
+}
+
+.left-side-section-claim-button-container{
+    display: flex;
+    align-items: center;
+    padding: 12px 0px;
+}
+
+.claim-button{
+    background-color: rgb(103,61,230);
+    border: 1px solid transparent;
+    border-radius: 8px;
+    padding: 0.75rem 3rem;
+    transition: background-color 0.5s;
+    cursor: pointer;
+    display: flex;
+    width: 11.3525rem;
+    height: 3rem;
+}
+
+.claim-button a{
+    color: white;
+    font-weight: 700;
+}
+
+.claim-button:hover {
+    background-color: rgb(80, 37, 209);
+}
+
+.countdown-button-container{
+    display: flex;
+    padding-left: 10px;
+}
+
+.countdown-button-container a{
+    background-color: rgb(227,218,252);
+    border: 1px solid transparent;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    width: 10rem;
+    height: 3rem;
+    justify-content: center;
+    align-items: center;
+    color: rgb(47,29,107);
+    font-weight: 700;
+}
+
+.money-back-span{
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    color: rgb(47,29,107);
+    gap: 0px 5px;
+}
 
 h1{
     font-size: 36px;
     color: rgb(47,29,107);
     font-weight: 700;
+    line-height: 120%;
 }
 
 .right-side-section{
-    position: relative;
-    bottom: 280px;
-    left: 580px;
+    width: 50vw;
+    height: auto;
+    position: static;
 }
+
 .right-side-section img{
-    width: 800px;
-    height: 550px;
+    width: 100%;
+    height: auto;
 }
-----------------------------------------------------------------------------------------
+
+/*Website Migration section*/
+
 section{
     padding: 5rem 0rem;
 }
 
 .service-section-description{
+    text-align: center;
     margin: 0rem 1.175rem 3rem;
-    padding: 0 40px;
+    padding: 0 2.5rem;
 }
 
 .service-section-description h2{
     color: white;
     font-size: 36px;
-    text-align: center;
-    margin: 0;
+    font-weight: 700;
 }
 
 .service-section-description p{
     color: white;
     margin: 1.5rem 0rem 0rem;
-    text-align: center;
+    font-size: 16px;
 }
 
 .cards h3{
@@ -166,20 +268,20 @@ section{
 .cards p{
     color: white;
     font-size: 16px;
-    margin: 0;
+    margin: 0px;
 }
 
-.cards-container {
+.cards-container{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin: 0px 18px;
+    margin: 0px 18.8px;
     padding: 0 40px;
     column-gap: 24px;
     row-gap: 24px;
 }
 
-.cards {
+.cards{
     background-color: rgb(47,29,107);
     width: 22.5rem;
     height: 16rem;
@@ -190,14 +292,14 @@ section{
     border: 1px solid transparent;
 }
 
-.button-container {
+.button-container{
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 2rem;
 }
 
-.button {
+.button{
     background-color: rgb(103,61,230);
     border: 1px solid transparent;
     border-radius: 8px;
@@ -212,15 +314,15 @@ section{
     height: 3rem;
 }
 
-.button-text {
+.button-text{
     color: white;
 }
 
-.button:hover {
+.button:hover{
     background-color: rgb(80, 37, 209);
 }
 
-.icons {
+.icons{
     background-color: rgb(103,60,231);
     color: white;
     border-radius: 5px;
@@ -230,4 +332,89 @@ section{
     align-items: center;
     justify-content: center;
     font-size: 1.5em;
+}
+
+/*footer*/
+
+footer{
+    width: 100vw;
+    background-color: rgb(244,244,254);
+    padding: 40px 0px 0px;
+}
+
+footer img{
+    width: 147px;
+    height: 30px;
+}
+
+.social-links-section{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 100px 10px;
+    padding: 0px 40px;
+}
+
+.social-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-size: 24px;
+    gap: 16px;
+    color: rgb(47,29,107);
+}
+
+.payment-methods-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 100px 10px;
+    padding: 0px 40px;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.payment-methods{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    align-items: center;
+}
+
+.payment-methods img{
+    width: 50px;
+    height: auto;
+    border-radius: 3px;
+}
+
+.payment-methods a{
+    font-size: 14px;
+    color: rgb(103,60,231);
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+.legal-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 16px;
+    color: rgb(110,43,121);
+}
+
+hr{
+    background-color: rgb(233,236,254);
+    width: auto;
+    height: 1px;
+    display: flex;
+    margin: 20px 100px 10px;
+    padding: 0px 40px;
+}
+
+.footer-copyright{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 100px 10px;
+    padding: 0px 40px;
+    color: rgb(110,43,121);
+    font-size: 14px;
 }
