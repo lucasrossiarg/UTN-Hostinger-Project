@@ -549,19 +549,24 @@ hr {
     margin: 0rem 7.1013rem 2rem;
   }
   .service-section-description h2{
-    font-size: 1.5rem;
+    font-size: 1.75em;
+  }
+
+  .service-section-description{
+    margin: 0 0 40px;
+    padding: 0 40px;
+    gap: 18px;
   }
   .service-section-description p{
-    margin: 1.5rem 0 0;
-    padding: 0;
-    width: 31.75rem;
-    height: 7.5rem;
+    width: auto;
+    margin: auto;
   }
   .cards-container{
+    width: 100%;
     gap: 1rem;
   }
   .cards {
-    width: 31.75rem;
+    width: 100%;
     height: auto;
   }
   /*Footer*/
@@ -595,12 +600,15 @@ hr {
     margin: 0 0 2rem;
   }
   .service-section-description p{
-    width: 24.5625rem;
-    height: 9rem;
+    width: auto;
+    margin: auto;
+  }
+  .cards-container{
+    padding: 0 16px;
   }
   .cards{
-    width: 24.5625rem;
-    height: 14.5rem;
+    width: auto;
+    height: auto;
   }
 
   /*Footer*/
@@ -623,15 +631,15 @@ hr {
 @media screen and (max-width: 23.5rem){
 /*Migration Section Description*/
 .service-section-description p{
-  width: 21.4375rem;
-  height: 10.5rem;
+  width: auto;
+  height: auto;
 }
 .cards-container{
   padding: 0 1rem;
 }
 .cards{
-  width: 21.4375rem;
-  height: 14.5rem;
+  width: auto;
+  height: auto;
 }
 }
 
