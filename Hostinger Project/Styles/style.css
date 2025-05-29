@@ -10,7 +10,7 @@ header {
   top: 0px;
   background-color: white;
   z-index: 1;
-  border: .0625rem solid transparent;
+  border: 0.0625rem solid transparent;
 }
 
 .nav-container {
@@ -46,8 +46,8 @@ header {
 
 .right-header-buttons {
   display: flex;
-  padding: 0 .625rem;
-  gap: .0625rem;
+  padding: 0 0.625rem;
+  gap: 0.0625rem;
   align-items: center;
 }
 
@@ -57,8 +57,8 @@ header {
   justify-content: center;
   width: 5rem;
   height: 3rem;
-  border: .125rem solid black;
-  border-radius: .5rem;
+  border: 0.125rem solid black;
+  border-radius: 0.5rem;
   font-weight: 550;
 }
 
@@ -86,15 +86,15 @@ header {
   padding: 2.25rem 0px 6rem;
   justify-content: center;
   align-items: center;
-  gap: .625rem;
+  gap: 0.625rem;
 }
 
 .left-side-section {
-  width: 30vw;
+  width: 40vw;
   display: flex;
   flex-direction: column;
   text-align: start;
-  gap: .0625rem;
+  gap: 0.0625rem;
 }
 
 .main-title-section {
@@ -105,7 +105,7 @@ header {
   color: rgb(47, 29, 107);
   font-size: 1.25em;
   font-weight: 700;
-  margin: .5rem 0rem 0rem;
+  margin: 0.5rem 0rem 0rem;
 }
 
 .main-title-section span {
@@ -125,7 +125,7 @@ header {
 .main-section-span {
   display: flex;
   align-items: center;
-  gap: .625rem;
+  gap: 0.625rem;
   line-height: 120%;
   color: rgb(77, 58, 126);
 }
@@ -138,7 +138,7 @@ header {
   display: flex;
   flex-direction: row;
   align-items: baseline;
-  gap: .3125rem;
+  gap: 0.3125rem;
 }
 
 .price-us {
@@ -167,8 +167,8 @@ header {
   width: 100%;
   display: flex;
   align-items: center;
-  padding: .75rem 0;
-  gap: .625rem;
+  padding: 0.75rem 0;
+  gap: 0.625rem;
 }
 
 .btn {
@@ -178,8 +178,8 @@ header {
   align-items: center;
   white-space: nowrap;
   height: 3rem;
-  padding: .75rem 3rem;
-  border-radius: .5rem;
+  padding: 0.75rem 3rem;
+  border-radius: 8px;
   font-weight: 700;
   text-align: center;
   text-decoration: none;
@@ -189,7 +189,7 @@ header {
 .btn.claim {
   background-color: rgb(103, 61, 230);
   color: white;
-  border: .0625rem solid transparent;
+  border: 1px solid transparent;
 }
 
 .btn.claim:hover {
@@ -199,7 +199,7 @@ header {
 .btn.countdown {
   background-color: rgb(227, 218, 252);
   color: rgb(47, 29, 107);
-  border: .0625rem solid transparent;
+  border: 0.0625rem solid transparent;
   width: 10rem;
 }
 
@@ -208,7 +208,7 @@ header {
   align-items: center;
   font-size: 1em;
   color: rgb(47, 29, 107);
-  gap: 0rem .3125rem;
+  gap: 0rem 0.3125rem;
 }
 
 h1 {
@@ -225,7 +225,7 @@ h1 {
 }
 
 .right-side-section img {
-  width: 100%;
+  width: auto;
   height: auto;
 }
 
@@ -289,7 +289,7 @@ section {
   display: flex;
   flex-direction: column;
   border-radius: 1.25rem;
-  border: .0625rem solid transparent;
+  border: 0.0625rem solid transparent;
 }
 
 .button-get-started-container {
@@ -301,9 +301,9 @@ section {
 
 .button-get-started-container a {
   background-color: rgb(103, 61, 230);
-  border: .0625rem solid transparent;
+  border: 0.0625rem solid transparent;
   border-radius: 8px;
-  padding: .75rem 3rem;
+  padding: 0.75rem 3rem;
   font-size: 1em;
   transition: background-color 0.5s;
   cursor: pointer;
@@ -322,7 +322,7 @@ section {
 .icons {
   background-color: rgb(103, 60, 231);
   color: white;
-  border-radius: .3125rem;
+  border-radius: 0.3125rem;
   display: flex;
   width: 2.5rem;
   height: 2.5rem;
@@ -346,7 +346,7 @@ footer img {
 .social-links-section {
   display: flex;
   justify-content: space-between;
-  margin: 0rem 6.25rem .625rem;
+  margin: 0rem 6.25rem 0.625rem;
   padding: 0;
 }
 
@@ -363,14 +363,14 @@ footer img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0rem 6.25rem .625rem;
+  margin: 0rem 6.25rem 0.625rem;
   gap: 1rem;
   flex-wrap: nowrap;
 }
 
 .payment-methods {
   display: flex;
-  gap: .5rem;
+  gap: 0.5rem;
   align-items: center;
   flex-wrap: nowrap;
 }
@@ -378,9 +378,9 @@ footer img {
 .payment-methods img {
   width: 3.125rem;
   height: auto;
-  border-radius: .25rem;
+  border-radius: 0.25rem;
   background-color: white;
-  box-shadow: 0 0 .1875rem rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 0.1875rem rgba(0, 0, 0, 0.1);
 }
 
 .payment-methods a {
@@ -402,26 +402,25 @@ footer img {
 hr {
   background-color: rgb(233, 236, 254);
   width: auto;
-  height: .0625rem;
+  height: 0.0625rem;
   display: flex;
-  margin: 1.25rem 6.25rem .625rem;
+  margin: 1.25rem 6.25rem 0.625rem;
   padding: 0rem 2.5rem;
 }
 
 .footer-copyright {
   display: flex;
   justify-content: space-between;
-  margin: 1.25rem 6.25rem .625rem;
+  margin: 1.25rem 6.25rem 0.625rem;
   padding: 0;
   color: rgb(60, 51, 140);
   font-size: 0.875em;
   text-decoration: none;
 }
 
-
 @media screen and (max-width: 64rem) {
   /*Main Section*/
-  .logo-container{
+  .logo-container {
     padding: 1rem 0rem 1rem 1.25rem;
   }
   .navbar-links,
@@ -472,7 +471,7 @@ hr {
   .claim-button,
   .countdown-button-container a {
     width: auto;
-    padding: .75rem 2rem;
+    padding: 0.75rem 2rem;
     height: 3rem;
     font-size: 1em;
   }
@@ -507,31 +506,43 @@ hr {
     flex-direction: column-reverse;
     align-items: flex-start;
   }
-  .payment-methods{
+  .payment-methods {
     display: flex;
     flex-wrap: wrap;
   }
   .footer-copyright {
     display: flex;
     flex-direction: column;
-    row-gap: .9375rem;
+    row-gap: 0.9375rem;
   }
 }
 
 @media screen and (max-width: 48rem) {
   /*Main Section*/
-  .main-section{
-    padding: .875rem 7.5rem;
+  .main-section {
+    padding: 0 1rem;
+    margin: 0;
   }
   h1 {
-    font-size: 1.75em;
-    white-space: nowrap;
+    font-size: 1.5em;
+    white-space: wrap;
   }
-  .left-side-section{
+  .left-side-section {
     text-align: start;
+    margin: 0rem 7.0625rem;
+    padding: 0 1rem;
   }
   .price-number {
     font-size: 2.25em;
+  }
+  .right-side-section {
+    width: 100%;
+    margin: 0px 7.0625rem;
+    padding: 0 1rem;
+  }
+  .right-side-section img {
+    width: auto;
+    height: auto;
   }
   .main-section-btn-container {
     display: flex;
@@ -540,28 +551,29 @@ hr {
     align-items: center;
     width: 100%;
   }
-  .btn.claim, .btn.countdown {
+  .btn.claim,
+  .btn.countdown {
     width: 100%;
   }
-  
+
   /*Service Section Description*/
-  .service-section-description{
+  .service-section-description {
     margin: 0rem 7.1013rem 2rem;
   }
-  .service-section-description h2{
+  .service-section-description h2 {
     font-size: 1.75em;
   }
 
-  .service-section-description{
-    margin: 0 0 40px;
-    padding: 0 40px;
-    gap: 18px;
+  .service-section-description {
+    margin: 0 0 2.5rem;
+    padding: 0 2.5rem;
+    gap: 1.125rem;
   }
-  .service-section-description p{
+  .service-section-description p {
     width: auto;
     margin: auto;
   }
-  .cards-container{
+  .cards-container {
     width: 100%;
     gap: 1rem;
   }
@@ -578,97 +590,99 @@ hr {
     justify-content: space-between;
     width: 100%;
   }
-  .payment-methods-section{
+  .payment-methods-section {
     flex-wrap: wrap;
   }
 }
 
-@media screen and (max-width: 26.625rem){
+@media screen and (max-width: 26.625rem) {
   /*Main Section*/
 
-  .main-section{
+  .main-section {
     display: flex;
-    padding: .9375rem 1rem;
+    padding: 0.9375rem 1rem;
   }
-  h1{
+  h1 {
     font-size: 1.5em;
     white-space: wrap;
   }
   /*Website Migration Section*/
-  .service-section-description{
+  .service-section-description {
     padding: 0rem 1rem;
     margin: 0 0 2rem;
   }
-  .service-section-description p{
+  .service-section-description p {
     width: auto;
     margin: auto;
   }
-  .cards-container{
-    padding: 0 16px;
+  .cards-container {
+    padding: 0 1rem;
   }
-  .cards{
+  .cards {
     width: auto;
     height: auto;
   }
 
   /*Footer*/
-  footer{
-    padding: .3125rem 1rem;
+  footer {
+    padding: 0.3125rem 1rem;
   }
-  .social-links-section{
+  .social-links-section {
     margin: 0;
   }
-  .payment-methods-section{
+  .payment-methods-section {
     margin: 0;
   }
-  .legal-links{
-    margin-top: .9375rem;
+  .legal-links {
+    margin-top: 0.9375rem;
   }
-  .footer-copyright{
+  .footer-copyright {
     margin: 0;
   }
 }
-@media screen and (max-width: 23.5rem){
-/*Migration Section Description*/
-.service-section-description p{
-  width: auto;
-  height: auto;
-}
-.cards-container{
-  padding: 0 1rem;
-}
-.cards{
-  width: auto;
-  height: auto;
-}
+@media screen and (max-width: 23.5rem) {
+  /*Migration Section Description*/
+  .service-section-description p {
+    width: auto;
+    height: auto;
+  }
+  .cards-container {
+    padding: 0 1rem;
+  }
+  .cards {
+    width: auto;
+    height: auto;
+  }
 }
 
-@media screen and (max-width: 20rem){
-/*Migration Section Description*/
-  .service-section-description h2{
+@media screen and (max-width: 20rem) {
+  /*Migration Section Description*/
+
+  .service-section-description h2 {
     width: 18rem;
     height: 4rem;
   }
-.service-section-description p{
-  width: auto;
-  height: auto;
-}
-.cards{
-  width: 18rem;
-  height: 16rem;
-  box-sizing: border-box;
-  padding: 1rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-.cards p{
-  flex-grow: 1;
-  overflow: auto;
-  margin: 0;
-}
-/*Footer*/
-  .legal-links{
+  .service-section-description p {
+    width: auto;
+    height: auto;
+  }
+  .cards {
+    width: 18rem;
+    height: 16rem;
+    box-sizing: border-box;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .cards p {
+    flex-grow: 1;
+    overflow: auto;
+    margin: 0;
+  }
+  /*Footer*/
+
+  .legal-links {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
